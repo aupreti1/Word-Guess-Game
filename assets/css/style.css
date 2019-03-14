@@ -1,0 +1,74 @@
+body {
+    width: 100%
+}
+
+h1 {
+    font-size: 43px;
+    border: solid 5px silver;
+    background: indigo;
+    color: silver;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: cursive;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    color: powderblue;
+}
+
+
+img {
+    margin: 10px;
+}
+
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    border-top: solid silver 2px;
+    border-bottom: solid silver 2px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-size: 12px;
+    color: powderblue;
+}
+
+span {
+    border: solid silver 2px;
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: royalblue; 
+    font-size: 15px;
+}
+
+.background {
+    border: solid 5px silver;
+}
+
+.container {
+    background-color: indigo;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 3px silver;
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: powderblue;
+}
+
+#scoreboard {
+    padding: 20px;
+}
