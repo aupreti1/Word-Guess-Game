@@ -4,22 +4,23 @@ body {
 
 h1 {
     font-size: 43px;
-    border: solid 5px silver;
-    background: indigo;
-    color: silver;
+    border: solid 5px #000080;
+    color: #000080;
     text-align: center;
     margin-top: 2%;
     margin-left: 10%;
     margin-right:10%;
     padding: 15px;
     font-family: cursive;
+    background: #669999;
 }
 
 h2 {
     font-family: cursive;
     font-size: 20px;
     padding-top: 10px;
-    color: powderblue;
+    color: #000080;
+    background: #669999;
 }
 
 
@@ -31,34 +32,28 @@ img {
 .sidebar {
     padding: 5px;
     position: relative;
-    border-top: solid silver 2px;
-    border-bottom: solid silver 2px;
     margin-bottom: 5px;
     font-family: cursive;
-    font-size: 12px;
-    color: powderblue;
+    font-size: 20px;
+    color: #000080;
 }
 
 span {
-    border: solid silver 2px;
+    border: solid #000080 2px;
     padding-left: 3px;
     padding-right:3px;
-    background-color: royalblue; 
-    font-size: 15px;
-}
-
-.background {
-    border: solid 5px silver;
+    background-color: #cc0066; 
+    font-size: 18px;
 }
 
 .container {
-    background-color: indigo;
     margin-top: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-bottom: 5px;
     text-align: center;
-    border: solid 3px silver;
+    border: solid 3px #000080;
+    background: #669999;
 }
 
 #currentword {
@@ -66,7 +61,7 @@ span {
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: powderblue;
+    color: #800040;
 }
 
 #scoreboard {

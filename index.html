@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <title>Guess The Word!</title>
+    <title>The Office Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/officeicon.png">
 </head>
 
-
-    <body background="assets/images/starynightsky.jpg">
-
+    <body background="assets/images/background.png">
         <div class="heading">
-            <h1>Horoscopes</h1>
+            <h1>The Office</h1>
         </div>
 
         <div class="background">
             <div class="container">
 
-                <h2>Press a Button to Start!</h2>
+                <h2>Press A Key To Guess The Word!</h2>
                 <div>
-                    <img id="image" src="./assets/images/aries.jpg" width="40%" height="200">
+                    <img id="image" src="./assets/images/castpic.jpg" width="40%" height="200">
                 </div>
 
                 <div>
                     <h3 id="currentword">_ _ _ _ _</h3>
                 </div>
                 <div id="scoreboard">
-                   
+                    
                     <div class="sidebar">
                         <h3>Guesses Left:
                             <span id="guessesremaining"></span>
@@ -39,7 +39,7 @@
                             <span id="winstracker"></span>
                         </h3>
                     </div>
-                
+                    
                     <div class="sidebar">
                         <h3>Losses:
                             <span id="losstracker"></span>
@@ -54,6 +54,15 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <audio id="office">
+                <source src="./assets/audio/office.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+
 
         <script src="assets/javascript/game.js"></script>
 
